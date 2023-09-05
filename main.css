@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 { /*adicionando fontes externas nos títulos e cabeçalho e alterando seu peso*/
+    font-family: 'Alegreya', serif;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+section h2,
+section h3,
+form button { /*adicionando fontes externas nos títulos e cabeçalho e alterando seu peso*/
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body, 
+input,
+textarea { /*adicionando fonte externa no corpo de texto*/
+    font-family: 'Roboto', sans-serif;
+}
+
+body { /*adicionando cor no corpo do site*/
+    background-color: #f7910b;
+}
+
+header { /*nome landing page*/
+    padding: 24px 0;
+    background-color: #35115f;
+    color: #ecf0f1;
+}
+
+header nav li { /* cabeçalho links*/
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a { /* cabeçalho links a*/
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container { /*ajuste para centralizar o cabeçalho*/
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container { /*ajuste dos links cabeçalho e da seção sobre*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emoji-list img { /*ajuste dos emojis*/
+    height: 24px;
+    margin-top: 12px;
+}
+
+.emoji-list li { /*colocando os emojis lado a lado e adicionando margem*/
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container { /*ajuste de seção sobre*/
+    align-items: flex-start;
+}
+
+section { /*ajuste espaçamento sobre*/
+    padding: 24px 0;
+}
+
+section h2 { /*colocando margem no h2*/
+    margin-bottom: 16px;
+}
+
+section { /*adicionando cor na seção sobre*/
+    color: #35115f;
+}
+
+section p { /*margem do paragráfo*/
+    margin-bottom: 8px;
+}
+
+.dog { /*dimensionando a imagem*/
+    margin-right: 32px;
+    height: 480px;
+    width: 640px;
+}
+
+.politics li { /*adicionando margem*/
+    display: inline;
+    margin-right: 8px;
+    text-decoration: underline;
+}
+
+#contact .container { /*ajustando a seção para ficar abaixo do fale conosco*/
+    display: block;
+}
+
+.contact-methods { /*colocando as divs uma do lado da outra e add espaçamento entre elas*/
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button { /*Ajustando os campos do formulário*/
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea,
+form input { /*alterando a cor do formulário e retirando a borda*/
+    background-color: #ecf5f7f8;
+    color: #35115f;
+    border: none;
+}
+
+form textarea { /*tirando a possibilidade de redimensionar o textarea do usuário*/
+    resize: none;
+    height: 180px;
+}
+
+section h3 { /*colocando margem inferior no h3*/
+    margin-bottom: 16px;
+}
+
+form button { /*alterando a cor de fundo e do botão e retirando a borda e colocando novo formato de seta*/
+    background-color: #35115f;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover { /*colocando estilo para mudar de cor quando o usuário colocar a seta em cima do botão*/
+    background-color: #9682ee;
+}
+
+input:focus,
+textarea:focus { /*colocando cor no entorno dos formulários*/
+    outline-color: #35115f;
+}
+
+footer { /*adicionando cor de fundo e nas letras do rodapé e também espaçamento*/
+    background-color: #35115f;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+footer p { /*alinhando o texto do rodapé*/
+    display: inline;
+    margin-left: 54px;
+    font-size: 14px;
+}
+
+.pets { /*dimensionando a imagem dos pets*/
+    height: 300px;
+    width: 400px;
+}
